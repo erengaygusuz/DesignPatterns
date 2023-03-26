@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Adapter", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Bridge", "DesignPatterns.Bridge\DesignPatterns.Bridge.csproj", "{B4A3ACE2-CDB6-4DF2-8CC7-AEAE106D6F6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Composite", "DesignPatterns.Composite\DesignPatterns.Composite.csproj", "{B9D8F886-DBA0-43AF-8D26-AA96C9D699B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Composite", "DesignPatterns.Composite\DesignPatterns.Composite.csproj", "{B9D8F886-DBA0-43AF-8D26-AA96C9D699B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Decorator", "DesignPatterns.Decorator\DesignPatterns.Decorator.csproj", "{A462C824-70AD-4DB0-B1F4-304ECC1DA1EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Decorator", "DesignPatterns.Decorator\DesignPatterns.Decorator.csproj", "{A462C824-70AD-4DB0-B1F4-304ECC1DA1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Facade", "DesignPatterns.Facade\DesignPatterns.Facade.csproj", "{73E8FF42-33AB-46EB-8820-A37751F54B4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{A462C824-70AD-4DB0-B1F4-304ECC1DA1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A462C824-70AD-4DB0-B1F4-304ECC1DA1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A462C824-70AD-4DB0-B1F4-304ECC1DA1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E8FF42-33AB-46EB-8820-A37751F54B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E8FF42-33AB-46EB-8820-A37751F54B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E8FF42-33AB-46EB-8820-A37751F54B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E8FF42-33AB-46EB-8820-A37751F54B4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{B4A3ACE2-CDB6-4DF2-8CC7-AEAE106D6F6B} = {521FDEB7-8E70-407F-8FAA-4DC8EC55EAB6}
 		{B9D8F886-DBA0-43AF-8D26-AA96C9D699B0} = {521FDEB7-8E70-407F-8FAA-4DC8EC55EAB6}
 		{A462C824-70AD-4DB0-B1F4-304ECC1DA1EF} = {521FDEB7-8E70-407F-8FAA-4DC8EC55EAB6}
+		{73E8FF42-33AB-46EB-8820-A37751F54B4F} = {521FDEB7-8E70-407F-8FAA-4DC8EC55EAB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C993A39-D192-406D-8F5B-36449B176347}
