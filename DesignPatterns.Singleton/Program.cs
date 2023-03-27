@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Singleton
+﻿using DesignPatterns.Singleton.Concrete;
+
+namespace DesignPatterns.Singleton
 {
     internal class Program
     {
